@@ -1,0 +1,34 @@
+name: Web3 News Auto-Scraper
+
+on:
+  schedule:
+    - cron: '0 0,8,16 * * *' # 每天北京时间 8点, 16点, 0点 自动运行
+  workflow_dispatch: # 允许你手动点击按钮立刻运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 必须赋予写入权限，否则脚本无法更新 json 文件
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v3
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 安装抓取必备依赖
+        run: pip install requests
+
+      - name: 执行抓取脚本
+        run: python scraper.py
+
+      - name: 将新抓取的资讯存回仓库
+        run: |
+          git config --global user.name "Github-Bot"
+          git config --global user.email "bot@github.com"
+          git add web3_news.json
+          git commit -m "自动更新 Web3 资讯" || exit 0
+          git push
