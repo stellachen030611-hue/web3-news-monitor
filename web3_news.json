@@ -1,5 +1,75 @@
 [
   {
+    "id": "fe1af675e63401e3f7a6ffd4419be976",
+    "title": "美国SOL现货ETF单日总净流出123.96万美元",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479098",
+    "date": "Fri, 01 May 2026 02:04:25 GMT",
+    "summary": "<p>Odaily星球日报讯 根据 SoSoValue 数据，昨日（美东时间 4 月 30 日）SOL 现货 ETF 单日总净流出 123.96 万美元。</p><p>昨日仅 Grayscale So..."
+  },
+  {
+    "id": "2e4721532a5821a5bb53dca3136f4d13",
+    "title": "Pantera Capital地址转出8390万枚ONDO，价值2211万美元",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479099",
+    "date": "Fri, 01 May 2026 02:13:18 GMT",
+    "summary": "<p>Odaily星球日报讯 据余烬监测，Ondo 领投机构 Pantera Capital 在 5 小时前转出了 8390 万枚 ONDO (价值 2211 万美元)。接收 Pantera Capi..."
+  },
+  {
+    "id": "7016174e2e4f848d06f7b69a9e27f642",
+    "title": "疑似孙宇晨地址再次从Spark提取320万枚USDT",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479100",
+    "date": "Fri, 01 May 2026 02:17:28 GMT",
+    "summary": "<p>Odaily星球日报讯 据链上分析师 Ai 姨监测，疑似孙宇晨地址再次从 Spark 撤出 320 万枚 USDT，4 月 29 日起已累计提出 9662 万美元稳定币。理财地址 0x939…6..."
+  },
+  {
+    "id": "35ac8048e004a2871245573e1a53e815",
+    "title": "美股收盘，加密概念股普涨，MARA涨超11.85%",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479101",
+    "date": "Fri, 01 May 2026 02:20:43 GMT",
+    "summary": "<p>Odaily星球日报讯 根据 msx.com 数据，美股收盘，道指收涨 1.62%，标普 500 指数收涨 1.02%，纳指收涨 0.89%。加密概念股普涨，BNB Network 涨 11.8..."
+  },
+  {
+    "id": "8deade4f94f5c56c3cdf9b4daee5946c",
+    "title": "星球早讯",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479102",
+    "date": "Fri, 01 May 2026 02:28:25 GMT",
+    "summary": "<p>1. 马斯克在 OpenAI 诉讼庭审中称“多数加密货币是骗局”；</p><p>2. 美国参议院禁止议员参与预测市场交易；</p><p>3. 特朗普称其可能需要打破伊朗停火协议；</p><p>4..."
+  },
+  {
+    "id": "72433a61c1f21924cf734ef0be537a2a",
+    "title": "原油继续攀升，WTI原油暂报108美元/桶",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479103",
+    "date": "Fri, 01 May 2026 02:34:21 GMT",
+    "summary": "<p>Odaily星球日报讯 据 Gate 最新数据，黄金价格上涨至 4,629.57 美元/盎司，日内涨幅达 0.16%。白银价格涨至 74.404 美元/盎司，日内涨幅达 0.95%。</p><p..."
+  },
+  {
+    "id": "5d71bde16a121c957c882d03f952004c",
+    "title": "Solana生态DeFi协议Carrot将下线，5月14日为剩余资金提取截止日期",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479104",
+    "date": "Fri, 01 May 2026 02:39:49 GMT",
+    "summary": "<p>Odaily星球日报讯 Solana 生态 DeFi 协议 Carrot 宣布，受 Drift 漏洞事件影响，其持续运营受到严重冲击，Carrot 将下线。</p><p>5 月 14 日为 Bo..."
+  },
+  {
+    "id": "d42d32d0bd87ae667c23b4d3f2ab24cb",
+    "title": "Bitmine再次质押16.2万枚ETH，价值约3.66亿美元",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479105",
+    "date": "Fri, 01 May 2026 02:40:38 GMT",
+    "summary": "<p>Odaily星球日报讯 据 Lookonchain 监测，8 小时前，Tom Lee 旗下 Bitmine 再次质押 162,088 枚 ETH，价值 3.66 亿美元。目前 Bitmine 累..."
+  },
+  {
+    "id": "c172b653efb0468bed313e21d6e06781",
+    "title": "X平台Cashtags功能于网页端上线",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479106",
+    "date": "Fri, 01 May 2026 02:48:30 GMT",
+    "summary": "<p>Odaily星球日报讯 X 产品负责人 Nikita Bier 在 X 平台发文表示，Cashtags 功能于网页端上线，X 将成为用户交易终端的核心组成部分，为每种资产提供实时图表和帖子。</..."
+  },
+  {
+    "id": "5ba8ef5b99239f19e1e340a1d6cc2749",
+    "title": "BTC突破77000 USDT，24H涨幅1.58%",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479107",
+    "date": "Fri, 01 May 2026 03:19:48 GMT",
+    "summary": "Odaily星球日报讯 OKX 行情显示，BTC 突破 77000 USDT，现报 77006.3 USDT，24H 涨幅 1.58%。..."
+  },
+  {
     "id": "97d8f2dc48be72cc7e2f9c50412b549e",
     "title": "Kelp向DeFi United复苏基金贡献2000枚ETH推进rsETH恢复",
     "link": "https://www.odaily.news/zh-CN/newsflash/479075",
