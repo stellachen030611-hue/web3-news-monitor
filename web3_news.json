@@ -1,5 +1,285 @@
 [
   {
+    "id": "1651e5690f45642678d24ca25d9e412e",
+    "category": "快讯",
+    "title": "麻吉大哥ETH与BTC多单本周再次亏损442万美元，总亏损达7560万美元",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479127",
+    "date": "Fri, 01 May 2026 07:38:49 GMT",
+    "summary": "<p>Odaily星球日报讯 Arkham 在 X 平台发文表示，麻吉大哥交易账户本周再次亏损 442 万美元，4 日内账户资产下跌 77%。其近 7 个半月累计亏损达 7560 万美元。目前仍持有 ETH 与 BTC 多单。</p>..."
+  },
+  {
+    "id": "18e1fed42e40b847f43e438f5559a819",
+    "category": "快讯",
+    "title": "Greeks.live：山寨行情有限回暖，山寨交易仍需等待",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479126",
+    "date": "Fri, 01 May 2026 07:25:27 GMT",
+    "summary": "<p>Odaily星球日报讯 Greeks.live 宏观研究员 Adam 在 X 平台发文表示，5 月 1 日共有 2.3 万张 BTC 期权到期，Put Call Ratio 为 1.13，最大痛点 76000 美元，名义价值 17.4..."
+  },
+  {
+    "id": "2b17e2c336ef8eca0a5179359f4ab93c",
+    "category": "快讯",
+    "title": "JPEG协议pPEG官方宣布DApp即将开放NFT交易功能",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479125",
+    "date": "Fri, 01 May 2026 07:15:02 GMT",
+    "summary": "<p>Odaily星球日报讯 首款 JPEG 协议 pPEG 官方宣布，DApp 正式开放官方 Swap 交易入口。pPEG 基于 BSC 与 Uniswap v4 机制，将整数交易、链上哈希与图像生成逻辑结合。用户在进行符合条件的 pPE..."
+  },
+  {
+    "id": "4c9a89074416121f361c2c8a7e666506",
+    "category": "快讯",
+    "title": "币安Alpha上线UnifAI Network，持有237积分可申领95枚UAI空投",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479124",
+    "date": "Fri, 01 May 2026 07:09:58 GMT",
+    "summary": "<p>Odaily星球日报讯 币安 Alpha 现已上线 UnifAI Network (UAI)。持有至少 237 个币安 Alpha 积分的用户可申领代币空投。</p><p>用户可在 Alpha 活动页面申领 95 枚 UAI 代币空投..."
+  },
+  {
+    "id": "f8146dd51880351ca6142425c06ca796",
+    "category": "快讯",
+    "title": "Strategy维持STRC 5月股息率为11.5%，MSTR股价迎来9个月来首次月度上涨",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479123",
+    "date": "Fri, 01 May 2026 07:04:00 GMT",
+    "summary": "<p>Odaily星球日报讯 Strategy (MSTR) 宣布其永续优先股 Stretch (STRC) 5 月的股息率将维持在 11.5%，这也是该水平连续第三个月保持不变。根据数据，STRC 在 4 月的成交量加权平均价格 (VWA..."
+  },
+  {
+    "id": "67c2ce36b6d0ebd6241582263618f81a",
+    "category": "快讯",
+    "title": "MGBX将上线MEGA合约",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479122",
+    "date": "Fri, 01 May 2026 06:58:07 GMT",
+    "summary": "<p>Odaily星球日报讯 据官方消息，MGBX 将于 2026 年 5 月 1 日 18：00（SGT） 上线 MEGAUSDT 永续合约交易对。</p><p>交易开放时间：2026 年 5 月 1 日 18：00（SGT）</p><p..."
+  },
+  {
+    "id": "bec551544860d033d43dc2a50cf277c7",
+    "category": "快讯",
+    "title": "Paradigm过去2日将214万枚HYPE转入Coinbase",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479121",
+    "date": "Fri, 01 May 2026 06:57:08 GMT",
+    "summary": "<p>Odaily星球日报讯 据 MLM 监测，过去两天内，Paradigm 已将 214 万枚 HYPE（价值 8600 万美元）转至 Coinbase Prime。</p>..."
+  },
+  {
+    "id": "d5426f149d1f56406eaaeef08d142ee6",
+    "category": "快讯",
+    "title": "Bakkt完成对稳定币支付公司Distributed Technologies Research的收购",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479120",
+    "date": "Fri, 01 May 2026 06:51:22 GMT",
+    "summary": "<p>Odaily星球日报讯 数字资产公司 Bakkt 宣布通过股权交易完成对稳定币基础设施公司 Distributed Technologies Research（DTR）的收购。根据协议，Bakkt 向 DTR 受益持有人发行了超过 1..."
+  },
+  {
+    "id": "3fc2dd9d9a457c3d6029e3ce182da13a",
+    "category": "快讯",
+    "title": "特朗普之子通过空壳公司与哈萨克斯坦关键矿产集团合并，后者曾获美国政府16亿美元支持用于开发钨矿",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479119",
+    "date": "Fri, 01 May 2026 06:35:44 GMT",
+    "summary": "<p>Odaily星球日报讯 特朗普长子小唐纳德·特朗普和埃里克·特朗普通过空壳公司与哈萨克斯坦关键矿产集团合并，该集团去年获美国政府高达 16 亿美元支持，用于开发钨矿项目。</p><p>报道指出，该钨矿项目涉及哈萨克斯坦北部 Katpa..."
+  },
+  {
+    "id": "e0a32f4c043795979bbf275ece53321e",
+    "category": "快讯",
+    "title": "a16z Crypto解质押4270枚HYPE，另有3万枚即将解除质押",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479118",
+    "date": "Fri, 01 May 2026 06:25:26 GMT",
+    "summary": "<p>Odaily星球日报讯 Arkham数据显示，a16z Crypto 已完成 4270 枚 HYPE 的解质押，并将其中 3875 枚转移至地址 0xeeb...533A。此外，a16z Crypto 另有 3 万枚 HYPE 将于下..."
+  },
+  {
+    "id": "974abe7be01dc50511994e4229bd0ed8",
+    "category": "全球视野",
+    "title": "Bithumb scores a legal win in South Korea as six-month suspension is lifted by local judge",
+    "link": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge",
+    "date": "Fri, 01 May 2026 07:41:24 +0000",
+    "summary": "South Korea's financial watchdog imposed a $24.6 million fine on Bithumb and partial suspension that came into effect la..."
+  },
+  {
+    "id": "9a16d99d6d7d5247d84e7784571e9751",
+    "category": "全球视野",
+    "title": "Strategy keeps STRC dividend at 11.5% as stock logs first monthly gain in nine",
+    "link": "https://www.coindesk.com/markets/2026/05/01/strategy-keeps-strc-dividend-at-11-5-as-stock-logs-first-monthly-gain-in-nine",
+    "date": "Fri, 01 May 2026 07:01:47 +0000",
+    "summary": "STRC’s volume weighted average price of $99.76 for April kept the dividend steady for a third consecutive month...."
+  },
+  {
+    "id": "18a8d264c2faa1c7de73cd0aed8440d8",
+    "category": "全球视野",
+    "title": "U.S. senators won't be weighing in on prediction markets bets after banning themselves",
+    "link": "https://www.coindesk.com/policy/2026/04/30/u-s-senators-won-t-be-weighing-in-on-prediction-markets-bets-after-banning-themselves",
+    "date": "Thu, 30 Apr 2026 22:13:13 +0000",
+    "summary": "The Senate agreed unanimously to revise its rules to ban members and their staffs from wagers on prediction markets plat..."
+  },
+  {
+    "id": "cffa7961602e4bdf6cc14fa217e834d9",
+    "category": "全球视野",
+    "title": "From Cathie Wood to Cantor Fitzgerald, the big money is betting that Robinhood’s crypto slump is just a temporary speed bump",
+    "link": "https://www.coindesk.com/markets/2026/04/30/from-cathie-wood-to-cantor-fitzgerald-the-big-money-is-betting-that-robinhood-s-crypto-slump-is-just-a-temporary-speed-bump",
+    "date": "Thu, 30 Apr 2026 19:30:05 +0000",
+    "summary": "Cathie Wood’s Ark Invest snapped up over 500,000 shares of Robinhood on Wednesday, joining a wave of analysts who believ..."
+  },
+  {
+    "id": "54d17ed8f072e0af03163d132b668561",
+    "category": "全球视野",
+    "title": "Senator Warren questions Commerce Secretary Lutnick on Tether loan to family ",
+    "link": "https://www.coindesk.com/policy/2026/04/30/senator-warren-questions-commerce-secretary-lutnick-on-tether-loan-to-family",
+    "date": "Thu, 30 Apr 2026 17:06:21 +0000",
+    "summary": "Senators Elizabeth Warren and Ron Wyden sent letters to Howard Lutnick and Tether CEO Paulo Ardoino asking about a loan ..."
+  },
+  {
+    "id": "200e408f2bca234e0d6330798d81ac62",
+    "category": "全球视野",
+    "title": "A Polymarket-linked bet on the weather in France forecasts a major data issue",
+    "link": "https://www.coindesk.com/opinion/2026/04/30/a-polymarket-linked-bet-on-the-weather-in-france-forecasts-a-major-data-issue",
+    "date": "Thu, 30 Apr 2026 15:27:33 +0000",
+    "summary": "The incident shows that as more real-world outcomes become tradable, the real bottleneck is not trading itself, but the ..."
+  },
+  {
+    "id": "c3ada865358cfd675bd4d1c2f99522b2",
+    "category": "全球视野",
+    "title": "Gemini eyes prediction market challenge to Kalshi, Polymarket, secures derivatives license; shares surge",
+    "link": "https://www.coindesk.com/policy/2026/04/30/gemini-eyes-prediction-market-challenge-to-kalshi-polymarket-secures-derivatives-license-shares-surge",
+    "date": "Thu, 30 Apr 2026 15:22:39 +0000",
+    "summary": "Tyler and Cameron Winklevoss' crypto exchange now holds licenses allowing it to expand into regulated derivatives and pr..."
+  },
+  {
+    "id": "6b872bcdd3b416f745238e99f9725ed1",
+    "category": "全球视野",
+    "title": "Polymarket taps Chainalysis to bring Wall Street-level oversight to crypto prediction markets",
+    "link": "https://www.coindesk.com/business/2026/04/30/polymarket-taps-chainalysis-to-bring-wall-street-level-oversight-to-crypto-prediction-markets",
+    "date": "Thu, 30 Apr 2026 15:05:09 +0000",
+    "summary": "By partnering with Chainalysis to monitor its blockchain data in real-time, Polymarket is signaling to both users and re..."
+  },
+  {
+    "id": "abcddab49366550441493285b7f6e518",
+    "category": "全球视野",
+    "title": "Crypto for Advisors: Breaking down the Sui blockchain",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/04/29/crypto-for-advisors-breaking-down-the-sui-blockchain",
+    "date": "Thu, 30 Apr 2026 15:00:00 +0000",
+    "summary": "Sui is a differentiated Layer-1 blockchain, combining novel object-based architecture and parallel execution for high th..."
+  },
+  {
+    "id": "eb04e3ef8eb65ac4d560b2f11785cb8c",
+    "category": "全球视野",
+    "title": "Anchorage Digital and M0 team up to power next wave of regulated stablecoins",
+    "link": "https://www.coindesk.com/business/2026/04/30/regulated-crypto-custody-firm-anchorage-partners-with-stablecoin-tech-provider-m0",
+    "date": "Thu, 30 Apr 2026 15:00:00 +0000",
+    "summary": "Anchorage seeks to expand its issuance platform through M0, and opens the door to a broad range of firms looking to laun..."
+  },
+  {
+    "id": "801f0454c014726c067c4f2aa2658122",
+    "category": "全球视野",
+    "title": "Coinbase's asset manager to offer stablecoin credit fund with tokenized share class",
+    "link": "https://www.coindesk.com/business/2026/04/30/coinbase-s-asset-manager-to-offer-stablecoin-credit-fund-with-tokenized-share-class",
+    "date": "Thu, 30 Apr 2026 14:00:00 +0000",
+    "summary": "The fund, dubbed CUSHY, targets yield from onchain lending and private credit, offering tokenized access through Superst..."
+  },
+  {
+    "id": "a00da338620fab2fe8c140d7f8ca9909",
+    "category": "全球视野",
+    "title": "Banks push to slow stablecoin law as Agora races for charter",
+    "link": "https://www.coindesk.com/coindesk-news/2026/04/29/banks-push-to-slow-stablecoin-law-as-agora-races-for-charter",
+    "date": "Thu, 30 Apr 2026 13:56:21 +0000",
+    "summary": "U.S. banks are looking to delay landmark stablecoin legislation even as crypto firms like Agora push ahead...."
+  },
+  {
+    "id": "d0630bb6d776390c2dbddc11a4d6d30f",
+    "category": "全球视野",
+    "title": "CoinDesk 20 performance update: Aptos (APT) gains 4.4% as nearly all assets rise ",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/04/30/coindesk-20-performance-update-aptos-apt-gains-4-4-as-nearly-all-assets-rise",
+    "date": "Thu, 30 Apr 2026 13:24:57 +0000",
+    "summary": "Internet Computer (ICP), up 2.4% from Wednesday, joined Aptos (APT) as a top performer...."
+  },
+  {
+    "id": "13b01a46d112a79c87261d8eb29b7c71",
+    "category": "全球视野",
+    "title": "The long con: How North Korean spies spent months in-person to drain $285 million from Drift",
+    "link": "https://www.coindesk.com/business/2026/04/30/north-korean-hackers-are-moving-faster-they-account-for-76-of-crypto-exploits-this-year-trmlabs",
+    "date": "Thu, 30 Apr 2026 12:58:16 +0000",
+    "summary": "The security intelligence research firm said North Korean-state-backed hackers account for 76% of all crypto scam and ha..."
+  },
+  {
+    "id": "3180de6380449b11e48d19ee60227dd0",
+    "category": "全球视野",
+    "title": "MARA Holdings to buy Long Ridge Energy in $1.5 billion AI data center push",
+    "link": "https://www.coindesk.com/business/2026/04/30/mara-holdings-to-buy-long-ridge-energy-in-usd1-5-billion-ai-data-center-push",
+    "date": "Thu, 30 Apr 2026 12:44:43 +0000",
+    "summary": "The deal includes a 505 MW gas plant and 1,600 acres in Ohio, offering over 1 GW power capacity for future AI and IT bui..."
+  },
+  {
+    "id": "9c3bdb9ca4394f60e2cd307a79dda608",
+    "category": "全球视野",
+    "title": "Germany’s AllUnity expands EURAU to Solana as euro stablecoins gain traction",
+    "link": "https://www.coindesk.com/business/2026/04/30/germany-s-allunity-expands-eurau-to-solana-as-euro-stablecoins-gain-traction",
+    "date": "Thu, 30 Apr 2026 11:58:32 +0000",
+    "summary": "The firm's MiCA-compliant euro token aims to speed up euro transfers and support regulated onchain finance as the euro s..."
+  },
+  {
+    "id": "d4b00df3664f2e0fbbb8dde9ccde6c77",
+    "category": "全球视野",
+    "title": "The Green Beret was just the start: New data suggests military insider trading crisis on Polymarket",
+    "link": "https://www.coindesk.com/markets/2026/04/30/polymarket-s-military-markets-show-signs-of-insider-edge-report-suggests",
+    "date": "Thu, 30 Apr 2026 11:57:29 +0000",
+    "summary": "New data shows unusually high win rates in defense bets, building on research that 3% of traders drive prices and under ..."
+  },
+  {
+    "id": "c228f59ed3e9b7202b6c47001dab3387",
+    "category": "全球视野",
+    "title": "Seasonal trends favor bulls even as bitcoin ends April in a defensive mood",
+    "link": "https://www.coindesk.com/daybook-us/2026/04/30/seasonal-trends-favor-bulls-even-as-bitcoin-ends-april-in-a-defensive-mood",
+    "date": "Thu, 30 Apr 2026 11:15:12 +0000",
+    "summary": "Your day-ahead look for April 30, 2026..."
+  },
+  {
+    "id": "5558766abad1ae24967a74606b189a66",
+    "category": "全球视野",
+    "title": "Bitcoin faces $80,000 resistance as derivatives show signs of risk aversion",
+    "link": "https://www.coindesk.com/markets/2026/04/30/bitcoin-faces-usd80-000-resistance-as-derivatives-shows-signs-of-risk-aversion",
+    "date": "Thu, 30 Apr 2026 11:01:26 +0000",
+    "summary": "Bitcoin faces profit-taking pressure near $80,000, backed up by a U.S. inflation report that comes as high oil prices an..."
+  },
+  {
+    "id": "9c1fa6ca095a45e1f670e03e7450353b",
+    "category": "全球视野",
+    "title": "Wasabi Protocol drained of $4.5 million in apparent admin key compromise",
+    "link": "https://www.coindesk.com/tech/2026/04/30/wasabi-protocol-drained-for-usd4-5-million-in-apparent-admin-key-compromise",
+    "date": "Thu, 30 Apr 2026 10:37:47 +0000",
+    "summary": "The exploit used a playbook similar to Drift's $285 million breach earlier this month: a compromised deployer key with n..."
+  },
+  {
+    "id": "aa68ec4ca42244e490fe7d3bcff147cd",
+    "category": "全球视野",
+    "title": "XO Market bets on user-generated prediction markets to rival Polymarket and Kalshi",
+    "link": "https://www.coindesk.com/business/2026/04/30/xo-market-bets-on-user-generated-prediction-markets-to-rival-polymarket-and-kalshi",
+    "date": "Thu, 30 Apr 2026 09:00:00 +0000",
+    "summary": "Backed by 20VC, Picus Capital and Coinbase Ventures; XO lets users create and profit from their own prediction markets, ..."
+  },
+  {
+    "id": "0d82df73fc76b218609443f9205c2514",
+    "category": "全球视野",
+    "title": "XRP hits FOMO zone as Rakuten Pay partnership drives social chatter to greed levels",
+    "link": "https://www.coindesk.com/markets/2026/04/30/xrp-hits-fomo-zone-as-rakuten-pay-partnership-drives-social-chatter-to-greed-levels",
+    "date": "Thu, 30 Apr 2026 08:14:29 +0000",
+    "summary": "XRP's positive-to-negative sentiment ratio on social media spiked into the FOMO zone on April 29, the same level that ha..."
+  },
+  {
+    "id": "da18fbb194437d6c23c81ee185977ace",
+    "category": "全球视野",
+    "title": "Dogecoin zooms 10%, breaking away from bitcoin as open interest hits a yearly peak",
+    "link": "https://www.coindesk.com/markets/2026/04/30/dogecoin-zooms-10-in-breakaway-from-bitcoin-as-open-interest-hits-year-high",
+    "date": "Thu, 30 Apr 2026 07:50:52 +0000",
+    "summary": "Open interest in DOGE-tracked futures climbed to 15.36 billion tokens, a sign that traders are adding fresh leverage as ..."
+  },
+  {
+    "id": "b815a3a374472c5b8dd68282efd30983",
+    "category": "全球视野",
+    "title": "Trump-backed World Liberty Financial races toward 62 billion token unlock with near-unanimous vote",
+    "link": "https://www.coindesk.com/markets/2026/04/30/wlfi-races-toward-62-billion-token-unlock-with-near-unanimous-vote",
+    "date": "Thu, 30 Apr 2026 07:49:21 +0000",
+    "summary": "Proposal introduces vesting for 40.7 billion insider tokens after 2-year cliff, even as voting power remains concentrate..."
+  },
+  {
+    "id": "00249349ed300e50c82ea0e85264348e",
+    "category": "全球视野",
+    "title": "Ouch. The U.S. 30-year Treasury yield just hit 5% and bitcoin may pay the price",
+    "link": "https://www.coindesk.com/markets/2026/04/30/ouch-the-u-s-30-year-treasury-yield-just-hit-5-and-bitcoin-may-pay-the-price",
+    "date": "Thu, 30 Apr 2026 06:31:57 +0000",
+    "summary": "Hawkish dissent within the Federal Reserve, elevated oil prices and rising long-term inflation expectations are pushing ..."
+  },
+  {
     "id": "fe1af675e63401e3f7a6ffd4419be976",
     "title": "美国SOL现货ETF单日总净流出123.96万美元",
     "link": "https://www.odaily.news/zh-CN/newsflash/479098",
