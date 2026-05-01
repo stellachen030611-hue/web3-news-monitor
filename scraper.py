@@ -2,53 +2,61 @@ import requests
 import json
 import os
 import hashlib
+import xml.etree.ElementTree as ET
+from datetime import datetime
 
-# Odaily 的 RSS 地址（这是最稳定的白嫖接口）
-RSS_URL = "https://rss.odaily.news/rss/newsflash"
+# 1. 配置抓取源矩阵 (RSS 协议为主，稳定且免费)
+# 提示：如果某个 RSSHub 链接失效，可以更换其他公共实例
+SOURCES = {
+    "快讯": "https://rss.odaily.news/rss/newsflash",
+    "全球视野": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+    "安全监控": "https://rsshub.app/slowmist/fort",
+    "融资动态": "https://rsshub.app/rootdata/recent",
+    "深度分析": "https://rsshub.app/chaincatcher/news",
+    "交易所": "https://rsshub.app/binance/announcement"
+}
 
 def get_md5(text):
-    """为每条新闻生成唯一ID，用于去重"""
     return hashlib.md5(text.encode('utf-8')).hexdigest()
 
-def scrape_odaily():
-    print("开始抓取 Odaily 快讯...")
+def fetch_rss_source(category, url):
+    print(f"正在抓取 [{category}]...")
+    items = []
     try:
-        # 使用 XML 解析或者简单的字符串处理，RSS本质是XML
-        # 为了不增加依赖包，我们直接用 requests 拿到内容
-        response = requests.get(RSS_URL, timeout=10)
+        response = requests.get(url, timeout=15, headers={'User-Agent': 'Mozilla/5.0'})
         response.encoding = 'utf-8'
-        
-        # 极简解析逻辑：寻找 <item> 标签
-        # 实际开发中如果追求极致稳定，建议用 feedparser 库
-        import xml.etree.ElementTree as ET
         root = ET.fromstring(response.text)
         
-        new_items = []
+        # 统一解析标准 RSS 格式
         for item in root.findall('.//item'):
-            title = item.find('title').text
-            link = item.find('link').text
-            pub_date = item.find('pubDate').text
-            description = item.find('description').text if item.find('description') is not None else ""
+            title = item.find('title').text if item.find('title') is not None else "无标题"
+            link = item.find('link').text if item.find('link') is not None else ""
+            pub_date = item.find('pubDate').text if item.find('pubDate') is not None else str(datetime.now())
+            desc = item.find('description').text if item.find('description') is not None else ""
             
-            news_id = get_md5(title) # 以标题生成唯一标识
-            
-            new_items.append({
-                "id": news_id,
+            items.append({
+                "id": get_md5(title),
+                "category": category,  # 关键字段：用于前端过滤
                 "title": title,
                 "link": link,
                 "date": pub_date,
-                "summary": description[:100] + "..." # 截取前100字作为摘要
+                "summary": desc[:120] + "..." # 摘要截取
             })
-        
-        return new_items
     except Exception as e:
-        print(f"抓取失败: {e}")
-        return []
+        print(f"{category} 抓取失败: {e}")
+    return items
 
-def save_data(new_news):
+def main():
+    all_news = []
+    for cat, url in SOURCES.items():
+        all_news.extend(fetch_rss_source(cat, url))
+    
+    # 按时间降序排列 (简单处理，实际可根据 pubDate 转换时间戳排序)
+    # 这里我们先把新抓到的放在前面
+    
     file_name = 'web3_news.json'
     
-    # 1. 读取旧数据（如果存在）
+    # 读取旧数据实现去重
     if os.path.exists(file_name):
         with open(file_name, 'r', encoding='utf-8') as f:
             try:
@@ -58,24 +66,19 @@ def save_data(new_news):
     else:
         old_data = []
 
-    # 2. 去重并合并
     existing_ids = {item['id'] for item in old_data}
-    added_count = 0
-    
-    for item in new_news:
+    new_added = []
+    for item in all_news:
         if item['id'] not in existing_ids:
-            old_data.insert(0, item) # 新闻插到最前面
-            added_count += 1
+            new_added.append(item)
     
-    # 3. 只保留最近的 100 条，防止文件无限增大
-    final_data = old_data[:100]
+    # 合并并保留最新的 150 条资讯
+    final_data = (new_added + old_data)[:150]
 
     with open(file_name, 'w', encoding='utf-8') as f:
         json.dump(final_data, f, ensure_ascii=False, indent=2)
     
-    print(f"处理完成！新增 {added_count} 条，总计保留 {len(final_data)} 条。")
+    print(f"聚合完成！新增 {len(new_added)} 条，总库共 {len(final_data)} 条。")
 
 if __name__ == "__main__":
-    news = scrape_odaily()
-    if news:
-        save_data(news)
+    main()
