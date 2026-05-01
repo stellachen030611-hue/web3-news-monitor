@@ -1,5 +1,69 @@
 [
   {
+    "id": "188f9b095ba5c164aa1a886928a987f3",
+    "category": "快讯",
+    "title": "Tradexyz文档新增Pre-IPO，或支持IPO前股票敞口交易",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479134",
+    "date": "Fri, 01 May 2026 09:34:58 GMT",
+    "summary": "<p>Odaily星球日报讯 Hyperliquid News 在 X 平台发文表示，Tradexyz 已在文档中添加 Pre-IPO 市场功能，该系统支持用户在股票公开上市前获取敞口。</p><p>该市场预言机基于公司最新融资轮次定价，通..."
+  },
+  {
+    "id": "62a9ba2078642fc60deb42329676e345",
+    "category": "快讯",
+    "title": "BitMart：市场情绪有所修复，预计将维持修复节奏",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479133",
+    "date": "Fri, 01 May 2026 09:17:40 GMT",
+    "summary": "<p>Odaily星球日报讯 据 BitMart 5 月 1 日行情市场观察，BTC 当前报约 $77,329，盘中高点约 $77,435；ETH 报约 $2,284.82，盘中高点约 $2,289.71；SOL 报约 $84.15，盘中高..."
+  },
+  {
+    "id": "9b98e5edc5fe6870800b13d5e1959ac0",
+    "category": "快讯",
+    "title": "美股盘前加密概念股普涨，RIOT上涨2.61%",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479132",
+    "date": "Fri, 01 May 2026 09:13:22 GMT",
+    "summary": "<p>Odaily星球日报讯 根据 msx.com 数据，美股盘前加密概念股普涨，RIOT 上涨 2.61%，Strategy 上涨 2.15%，American Bitcoin 上涨 1.74%，ETHZilla 上涨 1.1%，MARA..."
+  },
+  {
+    "id": "db9e80fcdef1604e7c9a7866ba7534ac",
+    "category": "快讯",
+    "title": "巴西央行禁止受监管跨境支付通道使用加密资产进行结算",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479131",
+    "date": "Fri, 01 May 2026 09:09:50 GMT",
+    "summary": "<p>Odaily星球日报讯 巴西中央银行（BCB）发布第 561 号决议，禁止在受监管的 eFX 国际支付与转账服务中使用虚拟资产进行结算。该决议规定，eFX 服务提供商与其境外交易方之间的收付款必须仅通过外汇交易或非居民巴西雷亚尔账户进..."
+  },
+  {
+    "id": "0d22a78963e81e8a661af93eb40745f8",
+    "category": "快讯",
+    "title": "Riot Platforms第一季度数据中心收入达3320万美元，AMD合约容量翻倍",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479130",
+    "date": "Fri, 01 May 2026 08:32:24 GMT",
+    "summary": "<p>Odaily星球日报讯 根据 Riot Platforms 发布的财报数据，该公司第一季度首次录得 3320 万美元的数据中心收入。其中，大部分收入源于利润率较低的租户改造服务，即为客户采购并安装特定设备。值得关注的是，AMD 已选择..."
+  },
+  {
+    "id": "ec89dfaabce1e8810aa037f605c9b378",
+    "category": "快讯",
+    "title": "但斌旗下基金再次增持加密概念股，购入价值超300万美元Circle",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479129",
+    "date": "Fri, 01 May 2026 08:08:21 GMT",
+    "summary": "<p>Odaily星球日报讯 但斌旗下基金“东方港湾”最新披露的的 13F 文件，该基金最新一个报告期内增持了 3.17 万股 CRCL，价值 302 万美元。</p><p>据 Odaily 2025 年 7 月报道，加密公司 Coinba..."
+  },
+  {
+    "id": "e2071813de8740c176965fd8e77291eb",
+    "category": "快讯",
+    "title": "法院裁定暂停执行韩国监管机构对Bithumb下达的“部分停业”制裁",
+    "link": "https://www.odaily.news/zh-CN/newsflash/479128",
+    "date": "Fri, 01 May 2026 08:02:39 GMT",
+    "summary": "<p>Odaily星球日报讯 根据韩联社报道，首尔行政法院于 4 月 30 日接受了 Bithumb 针对韩国金融情报机构（FIU）提起的执行停职申请，裁定在案件最终判决前，暂停执行对其下达的 6 个月“部分停业”制裁。此前，FIU 指控 ..."
+  },
+  {
+    "id": "3245facd77720117bbeb1ecde24d33fb",
+    "category": "全球视野",
+    "title": "Bitcoin edges above $77,000, but institutional activity suggests downside hedging",
+    "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-edges-above-usd77-000-but-institutional-activity-suggests-downside-hedging",
+    "date": "Fri, 01 May 2026 09:25:49 +0000",
+    "summary": "BTC rises on steady volume and strong technical structure, but surging put interest and muted prediction market odds poi..."
+  },
+  {
     "id": "1651e5690f45642678d24ca25d9e412e",
     "category": "快讯",
     "title": "麻吉大哥ETH与BTC多单本周再次亏损442万美元，总亏损达7560万美元",
