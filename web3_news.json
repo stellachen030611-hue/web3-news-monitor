@@ -1,5 +1,205 @@
 [
   {
+    "id": "b738b97827168db1f2fae3659c52696c",
+    "category": "全球视野",
+    "title": "Brazil's central bank bans stablecoin and crypto settlement in cross-border payments",
+    "link": "https://www.coindesk.com/policy/2026/05/02/brazil-s-central-bank-bans-stablecoin-and-crypto-settlement-in-cross-border-payments",
+    "date": "Sat, 02 May 2026 16:56:08 +0000",
+    "summary": "The ban applies to fintechs and payment firms, closing the back-end payment rail for cross-border flows, but individual crypto investors can still buy..."
+  },
+  {
+    "id": "30f79a18def3c21a5f1a851bdde4be9d",
+    "category": "全球视野",
+    "title": "Crypto industry backs CLARITY Act yield compromise, pushes Senate Banking for markup",
+    "link": "https://www.coindesk.com/policy/2026/05/02/crypto-industry-backs-clarity-act-yield-compromise-pushes-senate-banking-for-markup",
+    "date": "Sat, 02 May 2026 16:01:01 +0000",
+    "summary": "The agreement necessitates firms restructure reward programs from a \"buy and hold\" to a \"buy and use\" model; however, CCI raised concerns over its bro..."
+  },
+  {
+    "id": "ea6d6eb5499814b7869b1e32a1cb8e21",
+    "category": "全球视野",
+    "title": "Bitcoin's 'hazardous' airdrop: Why developers are warning against Paul Sztorc’s eCash fork",
+    "link": "https://www.coindesk.com/tech/2026/05/02/bitcoin-s-hazardous-airdrop-why-developers-are-warning-against-paul-sztorc-s-ecash-fork",
+    "date": "Sat, 02 May 2026 16:00:00 +0000",
+    "summary": "Developers and industry figures say the eCash proposal introduces user risk, uneven distribution and philosophical tension...."
+  },
+  {
+    "id": "0ee53091667f810bfd6fc8d427cf57c4",
+    "category": "全球视野",
+    "title": "The $292M crypto hack exposed DeFi's weak spots. Here’s what must change, insiders say",
+    "link": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say",
+    "date": "Sat, 02 May 2026 13:00:00 +0000",
+    "summary": "As Wall Street moves onchain, the year's biggest crypto hack and DeFi crisis is forcing a rethink of risk, security and market structure, industry ins..."
+  },
+  {
+    "id": "ef3f2ed6dec2ec86d57137f8c7b1ba68",
+    "category": "全球视野",
+    "title": "Prediction markets are ditching the 'casino' label to become a regular part of how people track the news",
+    "link": "https://www.coindesk.com/markets/2026/05/02/prediction-markets-are-ditching-the-casino-label-to-become-a-regular-part-of-how-people-track-the-news",
+    "date": "Sat, 02 May 2026 13:00:00 +0000",
+    "summary": "A new report from Bitget and Polymarket reveals that prediction markets are evolving into a $240 billion industry driven by retail users who are tradi..."
+  },
+  {
+    "id": "6c01ff45ff41e471f15ddc90df5749d2",
+    "category": "全球视野",
+    "title": "Bitcoin above $78,000 as Senate clears Clarity Act yield hurdle, S&P 500 sets new record",
+    "link": "https://www.coindesk.com/markets/2026/05/02/bitcoin-above-usd78-000-as-senate-clears-clarity-act-yield-hurdle-s-and-p-500-sets-new-record",
+    "date": "Sat, 02 May 2026 06:49:39 +0000",
+    "summary": "Bitcoin recovered from a midweek dip to $75,500 to climb back above $78,000 by Saturday morning in Asia, with the Senate's stablecoin yield compromise..."
+  },
+  {
+    "id": "4a1b871d200e0fb48eea54c9094d1056",
+    "category": "全球视野",
+    "title": "New Bitcoin quantum proposal offers Satoshi Nakamoto a way to prove control without moving BTC",
+    "link": "https://www.coindesk.com/tech/2026/05/02/new-bitcoin-quantum-proposal-offers-satoshi-nakamoto-a-way-to-prove-control-without-moving-btc",
+    "date": "Sat, 02 May 2026 06:24:06 +0000",
+    "summary": "A new design proposed by venture fund Paradigm would let holders privately timestamp proof that they control vulnerable keys before quantum computers ..."
+  },
+  {
+    "id": "ac0b509e04fed0692d406f466e581717",
+    "category": "全球视野",
+    "title": "Clarity Act text lets crypto firms offer stablecoin rewards while shielding bank yield",
+    "link": "https://www.coindesk.com/policy/2026/05/01/clarity-act-text-lets-crypto-firms-offer-stablecoin-rewards-while-shielding-bank-yield",
+    "date": "Fri, 01 May 2026 21:33:27 +0000",
+    "summary": "The text released Friday blocks crypto firms from offering stablecoin yield offerings that look like bank deposits, but \"bona fide\" transactions are a..."
+  },
+  {
+    "id": "bae404f128be5042365d05d56ee0b014",
+    "category": "全球视野",
+    "title": "Bitcoin miner Riot's shares jump 8% after expanding AMD data center deal, signaling AI pivot",
+    "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-miner-riot-s-shares-jump-8-after-expanding-amd-data-center-deal-signaling-ai-pivot",
+    "date": "Fri, 01 May 2026 20:59:09 +0000",
+    "summary": "AMD’s expansion and improved financing terms highlight Riot’s shift beyond bitcoin mining and strengthen confidence in its growing data center busines..."
+  },
+  {
+    "id": "3c906a816182a202b687bd8f7788d3a5",
+    "category": "全球视野",
+    "title": "Ethereum Foundation finalizes sale of 10,000 ether to BitMine as part of its treasury strategy",
+    "link": "https://www.coindesk.com/business/2026/05/01/ethereum-foundation-finalizes-sale-of-10-000-ether-to-bitmine-as-part-of-its-treasury-strategy",
+    "date": "Fri, 01 May 2026 18:16:40 +0000",
+    "summary": "The latest transaction follows a similar March deal in which the foundation sold 5,000 ETH to BitMine, raising roughly $10.2 million...."
+  },
+  {
+    "id": "794795a9a6823ee260f2ff4bad40c7eb",
+    "category": "全球视野",
+    "title": "Canadian pension giant AIMCo buys the dip in Strategy, now sitting on $69 million unrealized gain",
+    "link": "https://www.coindesk.com/markets/2026/05/01/canadian-pension-giant-aimco-buys-the-dip-in-strategy-now-sitting-on-usd69-million-unrealized-gain",
+    "date": "Fri, 01 May 2026 17:40:40 +0000",
+    "summary": "AIMCo returns to Michael Saylor's bitcoin treasury company years after exiting, now sitting on a sizable unrealized gain...."
+  },
+  {
+    "id": "0073406ec51b5337c27c9d342d347ed6",
+    "category": "全球视野",
+    "title": "A new narrative for bitcoin that will last",
+    "link": "https://www.coindesk.com/opinion/2026/05/01/a-new-narrative-for-bitcoin-that-will-last",
+    "date": "Fri, 01 May 2026 17:33:00 +0000",
+    "summary": "Of the myriad pundits proclaiming what bitcoin is or isn’t, Blume offers a more clear-eyed framing that, he argues, will outlast the others.  \n..."
+  },
+  {
+    "id": "76f5dd03a90f4b4a91a3fa9384f5b841",
+    "category": "全球视野",
+    "title": "Tether posts $1.04 billion Q1 profit, reaches $8.23 billion reserve buffer",
+    "link": "https://www.coindesk.com/business/2026/05/01/tether-posts-usd1-04-billion-q1-profit-reaches-usd8-23-billion-reserve-buffer",
+    "date": "Fri, 01 May 2026 16:23:59 +0000",
+    "summary": "The stablecoin issuer said the crypto market was highly volatile during the first quarter...."
+  },
+  {
+    "id": "1d117c866198bc9b705278ed1d8de9e6",
+    "category": "全球视野",
+    "title": "AI agent forms its own company, gets ready to trade crypto",
+    "link": "https://www.coindesk.com/tech/2026/05/01/ai-agent-forms-its-own-company-gets-ready-to-trade-crypto",
+    "date": "Fri, 01 May 2026 15:37:15 +0000",
+    "summary": "Although Manfred will not start trading crypto until the end of May, it already has a crypto wallet and credentials to hire staff, make payments and d..."
+  },
+  {
+    "id": "0b3688d329051f9fab9a3154a24b0235",
+    "category": "全球视野",
+    "title": "Bitcoin takes another aim at $80,000 as stocks rise, oil drops on Iran optimism",
+    "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-takes-another-aim-at-usd80-000-as-stocks-rise-oil-drops-on-iran-optimism",
+    "date": "Fri, 01 May 2026 15:01:41 +0000",
+    "summary": "The crypto asset rose nearly 3% over the past 24 hours. ..."
+  },
+  {
+    "id": "de3183b02e9a66450db96bf5f47fb6b5",
+    "category": "全球视野",
+    "title": "Institutional demand to drive bitcoin market cap to $16 trillion by 2030: Ark Invest",
+    "link": "https://www.coindesk.com/markets/2026/05/01/institutional-demand-to-drive-bitcoin-market-cap-to-usd16-trillion-by-2030-ark-invest",
+    "date": "Fri, 01 May 2026 13:31:53 +0000",
+    "summary": "The figure implies a sharp increase in the bitcoin price...."
+  },
+  {
+    "id": "142cefff3687a6e0cce7f359017de548",
+    "category": "全球视野",
+    "title": "CoinDesk 20 performance update: Bittensor (TAO) gains 5.5%, leading index higher",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/05/01/coindesk-20-performance-update-bittensor-tao-gains-5-5-leading-index-higher",
+    "date": "Fri, 01 May 2026 13:21:26 +0000",
+    "summary": "Bitcoin (BTC), up 1.9% from Thursday, was also a top performer...."
+  },
+  {
+    "id": "7dfd6e011d9dfafb3d20a8b2318d847d",
+    "category": "全球视野",
+    "title": "Bitcoin bounces as big tech earnings fuel optimism; short-term pressures remain",
+    "link": "https://www.coindesk.com/daybook-us/2026/05/01/bitcoin-bounces-as-big-tech-earnings-fuel-optimism-short-term-pressures-remain",
+    "date": "Fri, 01 May 2026 11:15:02 +0000",
+    "summary": "Your day-ahead look for May 1, 2026..."
+  },
+  {
+    "id": "116c72c6d1707a4bc4efbbfeabef7a1a",
+    "category": "全球视野",
+    "title": "SBI Holdings eyes stake in crypto exchange Bitbank to build digital asset powerhouse",
+    "link": "https://www.coindesk.com/business/2026/05/01/sbi-holdings-continues-its-crypto-expansion-with-plans-for-a-stake-in-bitbank",
+    "date": "Fri, 01 May 2026 11:11:32 +0000",
+    "summary": "The Tokyo-based broker is betting big on crypto with plans in Singapore and a Visa partnership for bank cards that allows users to accumulate digital ..."
+  },
+  {
+    "id": "2634af460e42217c24e66f617d46ddce",
+    "category": "全球视野",
+    "title": "Bitcoin ticks higher, but remains range-bound as traders keep short bias",
+    "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-ticks-higher-but-remains-range-bound-as-traders-keep-short-bias",
+    "date": "Fri, 01 May 2026 10:20:23 +0000",
+    "summary": "BTC rises to $77,000 after holding $75,000 support, but negative funding, unchanged open interest and cautious positioning signal a lack of conviction..."
+  },
+  {
+    "id": "26d1034894078b2f3a954ba63675ad8b",
+    "category": "全球视野",
+    "title": "Bitcoin edges above $77,000, but institutional activity suggests downside hedging",
+    "link": "https://www.coindesk.com/markets/2026/05/01/bitcoin-edges-above-usd77-000-but-institutional-activity-suggests-downside-hedging",
+    "date": "Fri, 01 May 2026 09:25:49 +0000",
+    "summary": "BTC rises on steady volume and strong technical structure, but surging put interest and muted prediction market odds point to defensive positioning...."
+  },
+  {
+    "id": "0dbb969d311abb002ae7d88bd0df1966",
+    "category": "全球视野",
+    "title": "Bithumb scores a legal win in South Korea as six-month suspension is lifted by local judge",
+    "link": "https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge",
+    "date": "Fri, 01 May 2026 07:41:24 +0000",
+    "summary": "South Korea's financial watchdog imposed a $24.6 million fine on Bithumb and partial suspension that came into effect last month...."
+  },
+  {
+    "id": "15e13d834444480df4a4d491f8f5be60",
+    "category": "全球视野",
+    "title": "Strategy keeps STRC dividend at 11.5% as stock logs first monthly gain in nine",
+    "link": "https://www.coindesk.com/markets/2026/05/01/strategy-keeps-strc-dividend-at-11-5-as-stock-logs-first-monthly-gain-in-nine",
+    "date": "Fri, 01 May 2026 07:01:47 +0000",
+    "summary": "STRC’s volume weighted average price of $99.76 for April kept the dividend steady for a third consecutive month...."
+  },
+  {
+    "id": "dc85810aa2fc45aa890492a322ba16b7",
+    "category": "全球视野",
+    "title": "U.S. senators won't be weighing in on prediction markets bets after banning themselves",
+    "link": "https://www.coindesk.com/policy/2026/04/30/u-s-senators-won-t-be-weighing-in-on-prediction-markets-bets-after-banning-themselves",
+    "date": "Thu, 30 Apr 2026 22:13:13 +0000",
+    "summary": "The Senate agreed unanimously to revise its rules to ban members and their staffs from wagers on prediction markets platforms...."
+  },
+  {
+    "id": "fe9a022597d177f941ded7e37463daa2",
+    "category": "全球视野",
+    "title": "From Cathie Wood to Cantor Fitzgerald, the big money is betting that Robinhood’s crypto slump is just a temporary speed bump",
+    "link": "https://www.coindesk.com/markets/2026/04/30/from-cathie-wood-to-cantor-fitzgerald-the-big-money-is-betting-that-robinhood-s-crypto-slump-is-just-a-temporary-speed-bump",
+    "date": "Thu, 30 Apr 2026 19:30:05 +0000",
+    "summary": "Cathie Wood’s Ark Invest snapped up over 500,000 shares of Robinhood on Wednesday, joining a wave of analysts who believe a surge in April trading act..."
+  },
+  {
     "id": "5517101844f5398fce1883b33cc4fe6e",
     "category": "快讯",
     "title": "BIO上涨突破0.06 USDT，24H涨超50%",
