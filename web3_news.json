@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "title": "OKX: BTC-USDT-SWAP 信号监测",
+    "summary": "当前资金费率为 0.0071%。OKX 费率是跨所对冲策略的核心参考。",
+    "category": "衍生品",
+    "key_value": "0.007%",
+    "link": "https://www.okx.com/trade-swap/BTC-USDT-SWAP",
+    "date": "2026-05-04 06:35:39"
+  },
+  {
+    "title": "OKX: ETH-USDT-SWAP 信号监测",
+    "summary": "当前资金费率为 0.0073%。OKX 费率是跨所对冲策略的核心参考。",
+    "category": "衍生品",
+    "key_value": "0.007%",
+    "link": "https://www.okx.com/trade-swap/ETH-USDT-SWAP",
+    "date": "2026-05-04 06:35:39"
+  },
+  {
+    "title": "OKX: SOL-USDT-SWAP 信号监测",
+    "summary": "当前资金费率为 0.0081%。OKX 费率是跨所对冲策略的核心参考。",
+    "category": "衍生品",
+    "key_value": "0.008%",
+    "link": "https://www.okx.com/trade-swap/SOL-USDT-SWAP",
+    "date": "2026-05-04 06:35:39"
+  }
+]
