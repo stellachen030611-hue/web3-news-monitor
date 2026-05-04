@@ -1,97 +1,58 @@
 import requests
 import json
-import os
-import hashlib
-import xml.etree.ElementTree as ET
+import re
 from datetime import datetime
 
-# 量化因子矩阵：定义不同信号的关键词和权重
-STRATEGY_FACTORS = {
-    "交易所信号": {"weight": 10, "keys": ["listing", "上架", "上线", "announcement", "trading pair"]},
-    "安全风险": {"weight": 9, "keys": ["hack", "attack", "vulnerability", "漏洞", "攻击", "警报"]},
-    "治理套利": {"weight": 7, "keys": ["proposal", "vote", "提案", "投票", "snapshot"]},
-    "融资情绪": {"weight": 6, "keys": ["raised", "financing", "融资", "million", "seed"]},
-    "宏观解读": {"weight": 5, "keys": ["etf", "sec", "fed", "加息", "降息"]}
+# 量化因子关键词映射
+FACTOR_MAP = {
+    "衍生品": r"资金费率|多空比|Funding Rate|Long-Short|清算|Liquidation|持仓量|OI",
+    "流动性": r"深度|Depth|盘口|Volume|成交量|Market Maker|造市商|滑点",
+    "链上活性": r"巨鲸|Whale|大额转账|Active Address|活跃地址|燃烧|Burn|TVL",
+    "交易/执行": r"API|延迟|Latency|下单|撤单|账户资产|Listing|上币"
 }
 
-SOURCES = {
-    "交易所信号": "https://rsshub.app/binance/announcement",
-    "安全风险": "https://rsshub.app/slowmist/fort",
-    "治理套利": "https://rsshub.app/snapshot/proposals/active",
-    "融资情绪": "https://rsshub.app/rootdata/recent",
-    "深度投研": "https://rsshub.app/chaincatcher/news",
-    "宏观资讯": "https://rsshub.app/foresightnews/news",
-    "全球视野": "https://www.coindesk.com/arc/outboundfeeds/rss/"
-}
+def classify_signal(text):
+    for category, pattern in FACTOR_MAP.items():
+        if re.search(pattern, text, re.IGNORECASE):
+            return category
+    return "其它"
 
-def get_md5(text):
-    return hashlib.md5(text.encode('utf-8')).hexdigest()
-
-def analyze_signal(title, summary):
-    text = (title + summary).lower()
-    tag = "其它"
-    score = 0
-    for factor, config in STRATEGY_FACTORS.items():
-        if any(key in text for key in config["keys"]):
-            tag = factor
-            score = config["weight"]
-            break
-    return tag, score
-
-def fetch_rss(category, url):
-    print(f"📡 正在扫描 [{category}]...")
-    items = []
+def scrape_quant_signals():
+    # 示例使用 Odaily 接口，实际可扩展至交易所公告 API 或 Whale Alert
+    url = "https://www.odaily.news/api/pp/api/info-flow/newsflash_columns/newsflash_list?limit=20"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    
+    signals = []
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Web3Quant/2.0'}
-        response = requests.get(url, timeout=20, headers=headers)
-        response.encoding = 'utf-8'
-        root = ET.fromstring(response.text)
+        res = requests.get(url, headers=headers, timeout=10)
+        data = res.json().get('data', {}).get('items', [])
         
-        for item in root.findall('.//item'):
-            title = item.find('title').text if item.find('title') is not None else ""
-            link = item.find('link').text if item.find('link') is not None else ""
-            date = item.find('pubDate').text if item.find('pubDate') is not None else str(datetime.now())
-            desc = item.find('description').text if item.find('description') is not None else ""
-            summary = desc[:150].replace('<', '').replace('>', '')
-
-            # 信号识别逻辑
-            signal_tag, score = analyze_signal(title, summary)
+        for item in data:
+            title = item.get('title', '')
+            content = item.get('description', '')
+            full_text = title + content
             
-            if title:
-                items.append({
-                    "id": get_md5(title + link),
-                    "category": signal_tag, # 覆盖原始分类为信号分类
-                    "score": score,
-                    "title": title,
-                    "link": link,
-                    "date": date,
-                    "summary": summary
-                })
+            category = classify_signal(full_text)
+            
+            # 提取潜在数值 (如百分比或金额)
+            value_match = re.search(r'(\d+(\.\d+)?%|\$\d+(,\d+)*(\.\d+)?[MBK]?)', full_text)
+            key_value = value_match.group(0) if value_match else ""
+
+            signals.append({
+                "title": title,
+                "summary": content[:120],
+                "category": category,
+                "key_value": key_value, # 关键数值提取
+                "link": f"https://www.odaily.news/newsflash/{item.get('id')}",
+                "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            })
     except Exception as e:
-        print(f"❌ {category} 同步失败: {e}")
-    return items
-
-def main():
-    all_data = []
-    for cat, url in SOURCES.items():
-        all_data.extend(fetch_rss(cat, url))
+        print(f"抓取异常: {e}")
     
-    # 增量更新与去重
-    file_path = 'web3_news.json'
-    old_data = []
-    if os.path.exists(file_path):
-        with open(file_path, 'r', encoding='utf-8') as f:
-            try: old_data = json.load(f)
-            except: old_data = []
-
-    existing_ids = {i['id'] for i in old_data}
-    new_items = [i for i in all_data if i['id'] not in existing_ids]
-    
-    # 按得分和时间排序，保留前200条
-    final_output = (new_items + old_data)[:200]
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(final_output, f, ensure_ascii=False, indent=2)
-    print(f"✅ 同步完成，库中现有 {len(final_output)} 条因子信号。")
+    return signals
 
 if __name__ == "__main__":
-    main()
+    data = scrape_quant_signals()
+    with open('web3_news.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"成功导出 {len(data)} 条量化信号")
