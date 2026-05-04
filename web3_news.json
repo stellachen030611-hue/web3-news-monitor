@@ -1,26 +1,42 @@
 [
   {
-    "title": "OKX: BTC-USDT-SWAP 信号监测",
-    "summary": "当前资金费率为 0.0071%。OKX 费率是跨所对冲策略的核心参考。",
+    "title": "OKX: BTC-USDT-SWAP 资金费率",
+    "summary": "实时费率 0.0073%。反映当前市场杠杆偏向。",
     "category": "衍生品",
     "key_value": "0.007%",
     "link": "https://www.okx.com/trade-swap/BTC-USDT-SWAP",
-    "date": "2026-05-04 06:35:39"
+    "date": "2026-05-04 06:44:17"
   },
   {
-    "title": "OKX: ETH-USDT-SWAP 信号监测",
-    "summary": "当前资金费率为 0.0073%。OKX 费率是跨所对冲策略的核心参考。",
+    "title": "OKX: ETH-USDT-SWAP 资金费率",
+    "summary": "实时费率 0.0076%。反映当前市场杠杆偏向。",
     "category": "衍生品",
-    "key_value": "0.007%",
+    "key_value": "0.008%",
     "link": "https://www.okx.com/trade-swap/ETH-USDT-SWAP",
-    "date": "2026-05-04 06:35:39"
+    "date": "2026-05-04 06:44:17"
   },
   {
-    "title": "OKX: SOL-USDT-SWAP 信号监测",
-    "summary": "当前资金费率为 0.0081%。OKX 费率是跨所对冲策略的核心参考。",
+    "title": "OKX: SOL-USDT-SWAP 资金费率",
+    "summary": "实时费率 0.0076%。反映当前市场杠杆偏向。",
     "category": "衍生品",
     "key_value": "0.008%",
     "link": "https://www.okx.com/trade-swap/SOL-USDT-SWAP",
-    "date": "2026-05-04 06:35:39"
+    "date": "2026-05-04 06:44:18"
+  },
+  {
+    "title": "OKX 流动性: BTC/USDT 盘口价差",
+    "summary": "当前最佳买卖价差(Spread)为 0.00013%。价差波动常预示行情剧变。",
+    "category": "流动性",
+    "key_value": "S:0.0001%",
+    "link": "#",
+    "date": "2026-05-04 06:44:18"
+  },
+  {
+    "title": "交易执行: API 延迟监测",
+    "summary": "OKX REST API 延迟: 120ms; WebSocket 状态: 正常。",
+    "category": "交易/执行",
+    "key_value": "120ms",
+    "link": "#",
+    "date": "2026-05-04 06:44:18"
   }
 ]
