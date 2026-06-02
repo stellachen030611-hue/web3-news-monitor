@@ -5,7 +5,7 @@
     "category": "衍生品",
     "key_value": "0.010%",
     "link": "https://www.okx.com/trade-swap/BTC-USDT-SWAP",
-    "date": "2026-06-02 04:07:32"
+    "date": "2026-06-02 12:05:33"
   },
   {
     "title": "OKX: ETH-USDT-SWAP 资金费率",
@@ -13,15 +13,15 @@
     "category": "衍生品",
     "key_value": "0.010%",
     "link": "https://www.okx.com/trade-swap/ETH-USDT-SWAP",
-    "date": "2026-06-02 04:07:32"
+    "date": "2026-06-02 12:05:34"
   },
   {
     "title": "OKX: SOL-USDT-SWAP 资金费率",
-    "summary": "实时费率 0.0100%。反映当前市场杠杆偏向。",
+    "summary": "实时费率 0.0056%。反映当前市场杠杆偏向。",
     "category": "衍生品",
-    "key_value": "0.010%",
+    "key_value": "0.006%",
     "link": "https://www.okx.com/trade-swap/SOL-USDT-SWAP",
-    "date": "2026-06-02 04:07:33"
+    "date": "2026-06-02 12:05:34"
   },
   {
     "title": "OKX 流动性: BTC/USDT 盘口价差",
@@ -29,7 +29,7 @@
     "category": "流动性",
     "key_value": "S:0.0001%",
     "link": "#",
-    "date": "2026-06-02 04:07:33"
+    "date": "2026-06-02 12:05:34"
   },
   {
     "title": "交易执行: API 延迟监测",
@@ -37,6 +37,6 @@
     "category": "交易/执行",
     "key_value": "120ms",
     "link": "#",
-    "date": "2026-06-02 04:07:33"
+    "date": "2026-06-02 12:05:34"
   }
 ]
