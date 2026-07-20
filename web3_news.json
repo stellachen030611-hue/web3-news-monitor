@@ -1,35 +1,35 @@
 [
   {
     "title": "OKX: BTC-USDT-SWAP 资金费率",
-    "summary": "实时费率 0.0048%。反映当前市场杠杆偏向。",
+    "summary": "实时费率 -0.0006%。反映当前市场杠杆偏向。",
     "category": "衍生品",
-    "key_value": "0.005%",
+    "key_value": "-0.001%",
     "link": "https://www.okx.com/trade-swap/BTC-USDT-SWAP",
-    "date": "2026-07-20 03:18:22"
+    "date": "2026-07-20 10:53:09"
   },
   {
     "title": "OKX: ETH-USDT-SWAP 资金费率",
-    "summary": "实时费率 0.0045%。反映当前市场杠杆偏向。",
+    "summary": "实时费率 -0.0017%。反映当前市场杠杆偏向。",
     "category": "衍生品",
-    "key_value": "0.004%",
+    "key_value": "-0.002%",
     "link": "https://www.okx.com/trade-swap/ETH-USDT-SWAP",
-    "date": "2026-07-20 03:18:22"
+    "date": "2026-07-20 10:53:10"
   },
   {
     "title": "OKX: SOL-USDT-SWAP 资金费率",
-    "summary": "实时费率 0.0052%。反映当前市场杠杆偏向。",
+    "summary": "实时费率 0.0011%。反映当前市场杠杆偏向。",
     "category": "衍生品",
-    "key_value": "0.005%",
+    "key_value": "0.001%",
     "link": "https://www.okx.com/trade-swap/SOL-USDT-SWAP",
-    "date": "2026-07-20 03:18:23"
+    "date": "2026-07-20 10:53:10"
   },
   {
     "title": "OKX 流动性: BTC/USDT 盘口价差",
-    "summary": "当前最佳买卖价差(Spread)为 0.00015%。价差波动常预示行情剧变。",
+    "summary": "当前最佳买卖价差(Spread)为 0.00016%。价差波动常预示行情剧变。",
     "category": "流动性",
     "key_value": "S:0.0002%",
     "link": "#",
-    "date": "2026-07-20 03:18:23"
+    "date": "2026-07-20 10:53:10"
   },
   {
     "title": "交易执行: API 延迟监测",
@@ -37,6 +37,6 @@
     "category": "交易/执行",
     "key_value": "120ms",
     "link": "#",
-    "date": "2026-07-20 03:18:23"
+    "date": "2026-07-20 10:53:10"
   }
 ]
